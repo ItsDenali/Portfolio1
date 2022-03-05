@@ -34,10 +34,80 @@ h2   {
     margin-right: auto;    
 }
 
+.IMGheader   {
+    width: 690px;
+    background-color: #092d52;
+    color: #dddddd;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.secondbox  {
+    font-size: x-large;
+    width: 700px;
+    background-color: #092d52;
+    color: #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.buttonbox  {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: larger;
+    height: 50px;
+    color: #ffffff;
+    background-color: #092d52;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: larger;
+    height: 50px;
+    color: #ffffff;
+    background-color: #092d52;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    color: #dddddd;
+}
+
+a:link   {
+    text-decoration: none;
+}
+
+a:hover   {
+    text-decoration: underline;
+}
+
+.loginNotification  {
+    color: #ffffff;
+    font-size: larger;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
 #header {
     width:100%; 
     padding-top: 30px;
-    background-image: url(images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size:auto;
     background-origin: content;
     background-repeat: no-repeat;
@@ -79,8 +149,8 @@ h2   {
 img {
     width: 700px;
     height: 467px;
-    outline: 3px solid #909090;
-    outline-offset: -3px;
+    outline: 5px solid #092d52;
+    outline-offset: -5px;
 }
 
 img:hover   {
@@ -95,8 +165,8 @@ img:hover   {
     margin-right: auto;
     text-align: center;
     grid-template-columns: auto;
-    padding: 5px;
-    grid-gap: 5px
+    /*padding: 5px;
+    grid-gap: 5px*/
 }
 
 .grid-item {
